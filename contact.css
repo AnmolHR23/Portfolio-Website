@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(./bg1.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: blueviolet;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+p {
+  margin: 10px;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+.btn {
+  width: 150px;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 0px;
+  background-color: darkturquoise;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+body > div > a > button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+body > div > p:nth-child(5) > a {
+  text-decoration: none;
+  color: black;
+}

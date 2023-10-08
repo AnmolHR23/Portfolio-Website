@@ -1,0 +1,228 @@
+*{
+    margin: 0;padding: 0;
+}
+.details{
+    height: 800px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-bottom: 20px;
+    margin-left: 400px;
+    color:darkturquoise;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.info{
+    margin-left: 400px;
+    color:darkturquoise;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.profile-img{
+    width: 125px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile-details{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 600px;
+    height: 200px;
+    /* margin-top: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color:darkturquoise;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.intro{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    margin-bottom: 2%;
+    color:darkturquoise;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+body > div.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body > div.skills > div.skill{
+    width: 625.5px;
+    /* margin-left: 5%; */
+}
+.frontend{
+    float: left;
+}
+.comm{
+    float: left;
+}
+.decision{
+    float: left;
+}
+.e-com{
+    float: left;
+}
+.chrome{
+    float:left;
+}
+.skill{
+    margin-bottom: 5%;
+}
+body > div.projects {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body > div.projects > div.project{
+    width: 625.5px;
+    /* margin-left: 5%; */
+    margin-bottom: 5%;
+}
+
+h4{
+    margin-bottom: 2%;
+    color:darkturquoise;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.about{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+/* .contact{
+    margin-top: 5%;
+} */
+.contact>.cont-details{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.touch{
+    margin: 3%;
+    color:darkturquoise;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.para{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    background-color: darkturquoise;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+body > div.contact > div > a > button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+}
+.set{
+    width: 500px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 3%;
+}
+.one{
+    display: flex;
+}
+.edu {
+    padding: 5px;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.heading{
+    margin-bottom: 3%;
+    color:darkturquoise;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.exp{
+    padding: 5px;
+    height:fit-content;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pos{
+    color:darkturquoise;
+    font-family: 'Open Sans', sans-serif;
+    font-size:large;
+    font-weight: bold;
+}
+.exp1{
+    width: 444px;
+    margin-bottom: 1%;
+}
+
+ul{
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+
